@@ -1,5 +1,3 @@
-import { async } from "jshint/src/prod-params";
-
 class MarvelService {
     _apiBase = 'https://gateway.marvel.com:443/v1/public/';
     _apiKey = 'apikey=110dfe2c9e8265f41479aad92e417eb7';
