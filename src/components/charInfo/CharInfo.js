@@ -59,7 +59,7 @@ class CharInfo extends Component {
             error: true
         })
     }
-
+    
     render() {
         const {char, loading, error} = this.state
 
@@ -108,6 +108,7 @@ const View = ({char}) => {
                 {comics.length === 0 ? 'No comics featuring this character have been found' : null}
                 
                 {comics.map((item, i) => {
+                    // eslint-disable-next-line
                     if (i > 10) return;
                     return (
                         <li key={i} className="char__comics-item">
